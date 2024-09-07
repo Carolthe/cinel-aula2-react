@@ -1,22 +1,12 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-
-
-  color-scheme: light dark;
   color: black;
-  background-color: #ffff;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(10, 10, 10);
   font-size: 12px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-
 .pessoas{
   background: white;
   width: 600px;
@@ -25,11 +15,20 @@
   padding: 5px;
   margin: 5px;
 }
-.pessoas img{
-  width: 100px;
-  height: 100px;
-  padding-right: 10px;
-}
-.pessoas p{
-  margin: 0;
-}
+  .pessoas img{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+  }
+  .pessoas p{
+    margin: 0;
+  }
+
+  .bank{
+    background: white;
+    color: #242424;
+    height: 100px;
+    }
+  .texto{
+    color: #242424;
+  }
