@@ -6,6 +6,7 @@
   font-size: 12px;
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 .pessoas{
   background: white;
@@ -25,10 +26,38 @@
   }
 
   .bank{
-    background: white;
-    color: #242424;
-    height: 100px;
+    color: #ffff;
+    height: 140px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #ddbb55;
     }
-  .texto{
-    color: #242424;
+  .bank img{
+    display: flex;
+    
+    width: 30px;
+  }
+  .number{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+  }
+  .month{
+    margin-top: 0;
+  }
+  .dados{
+    margin: 0;
+    margin-left: 10px;
+  }
+  .expiration{
+    display: flex;
+    gap: 15px;
+    
+  }
+  .banco{
+    margin: 0; 
+  }
+  .nome{
+    margin-top: -16px;
   }

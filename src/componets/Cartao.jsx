@@ -3,11 +3,14 @@ export default function Cartao (props){
     return(
         <div className="bank">
             <img src={teste.img}/>
-            <p className="texto">{teste.number}</p>
-            <p>{teste.expiraMonth}</p>
-            <p>{teste.ecpiraYear}</p>
-            <p>{teste.bank}</p>
-            <p>{teste.namePeple}</p>
+            <div className="dados">
+            <p className="number">{teste.number}</p>
+            <div className="expiration">
+            <p className="month">{teste.expiraMonth}</p>
+            <p className="banco">{teste.bank}</p>
+          </div> 
+           <p className="nome">{teste.namePeple}</p>
+        </div>
         </div>
     )
 }

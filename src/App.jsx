@@ -2,6 +2,7 @@ import './App.css'
 import Pessoas from './componets/Pessoas'
 
 import Cartao from './componets/Cartao'
+import Visa from './img/Visa.png'
 
 // numero.map(numero => numero * 2)
 
@@ -25,21 +26,13 @@ function App() {
  } ]
 
  const dados = [{
-  img: "VIsa",
+  img: Visa,
   number: "0123456789018845",
-  expirationMonth: 3,
-  expirationYear: 2021,
+  expiraMonth:  "Expires 03/21",
   bank: "BNP",
   namePeple: "Marcelo José"
  },
- {
- img: "VIsa",
- number: "0123456789018845",
- expirationMonth: 3,
- expirationYear: 2021,
- bank: "BNP",
- namePeple: "Marcelo José"
-}]
+]
 
   return (
     <div>
